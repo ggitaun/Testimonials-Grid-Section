@@ -1,64 +1,81 @@
 body {
-width: 1440px;
-width: 100%;
-background-color: hsl(210, 46%, 95%);
+ width: 1440px;
+ width: 100%;
+ background-color: hsl(210, 46%, 95%);
 }
 
 .grid-container {
-display: grid;
-row-gap: 15px;
-column-gap: 15px;
+margin-top: 70px;
+margin-left: 160px;
+margin-right: 50px;
 }
 
-.Daniel {
-width: 500px;
-height: 200px;
-background-color: hsl(263, 55%, 52%);
-/*margin-top: 60px;
-margin-left: 110px;
-margin-right: 15px;*/
-grid-column: 1;
-grid-row: 1;
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 500px 200px 200px;
+  grid-template-rows: 200px;
+  gap: 15px;
 }
 
-.Jonathan {
-width: 250px;
-height: 200px;
-background-color: hsl(217, 19%, 35%);
-/*margin-top: 60px;
-margin-right: 15px;*/
-grid-column: 2;
-grid-row: 1;
+.grid-item1 {
+ width: 500px;
+ height: 200px;
+ border-radius: 8px;
+ background-color: hsl(263, 55%, 52%);
+ /*margin-left: 110px;
+ margin-right: 15px;*/
+}
+.grid-item2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  background-color: hsl(217, 19%, 35%);
+  margin-right: 15px;
 }
 
-.Kira {
-width: 250px;
-height: 400px;
-background-color: hsl(0, 0%, 100%);
-/*margin-top: 60px;
-margin-right: 60px;*/
-grid-column: 3;
-grid-row: 1/span2;
+.grid-item3 {
+  width: 200px;
+  height: 415px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+
+  color: black;
+  font-size: 13px;
+  padding-right: 5px;
+  padding-left: 5px;
+  display: block;
+  justify-content: space-between;
+  }
+
+.top {
+  display: inline-block;
 }
 
-.Jeanette {
-width: 250px;
-height: 200px;
-background-color: hsl(0, 0%, 100%);
-/*margin-top: 15px;
-margin-right: 15px;
-margin-left: 110px;*/
-grid-column: 1;
-grid-row: 2;
+p {
+  opacity: 70%;
 }
 
-.Patrick {
-width: 500px;
-height: 200px;
-background-color: hsl(219, 29%, 14%);
-/*margin-top: 15px;
-margin-right: 15px;
-margin-left: 15px;*/
-grid-column: 2;
-grid-row: 2;
+.two {
+  opacity: 50%;
+}
+
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 200px 500px;
+    /*grid-template-rows: 200px 200px;*/
+    gap: 15px;
+  }
+.grid-item4 {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  background-color: hsl(217, 19%, 35%);
+  margin-right: 15px;
+}
+.grid-item5 {
+  width: 500px;
+  height: 200px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
 }
