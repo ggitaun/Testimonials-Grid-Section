@@ -39,26 +39,45 @@ margin-right: 50px;
   border-radius: 8px;
   background-color: hsl(0, 0%, 100%);
 
-  color: black;
+  color: hsl(219, 29%, 14%);
   font-size: 13px;
-  padding-right: 5px;
-  padding-left: 5px;
-  display: block;
-  justify-content: space-between;
-  }
-
-.top {
-  display: inline-block;
 }
 
-p {
-  opacity: 70%;
+
+.T {
+display: block;
+justify-content: baseline;
 }
 
-.two {
+img {
+  border-radius: 50%;
+  size: 2cm;
+  padding-right: 10px;
+}
+
+h4 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 600;
+}
+
+img, h4 {
+display: flex;
+}
+
+h5 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
   opacity: 50%;
 }
 
+h3 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  opacity: 70%;
+}
 
 .grid-container2 {
     display: grid;
