@@ -43,16 +43,30 @@ margin-right: 50px;
   font-size: 13px;
 }
 
+.profile-txt {
+  display: block;
+}
+
+.profile-img  {
+  border-radius: 50%;
+  size: 2cm;
+  padding-right: 10px;
+}
+
+.profile-img, .profile-txt {
+  
+}
+
+.txt {
+  width: 180px;
+  height: 400px;
+  padding-left: 10px;
+}
+
 
 .T {
 display: block;
 justify-content: baseline;
-}
-
-img {
-  border-radius: 50%;
-  size: 2cm;
-  padding-right: 10px;
 }
 
 h4 {
@@ -60,9 +74,6 @@ h4 {
   font-weight: 600;
 }
 
-img, h4 {
-display: flex;
-}
 
 h5 {
   font-family: 'Barlow Semi Condensed', sans-serif;
