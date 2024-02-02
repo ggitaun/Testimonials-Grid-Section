@@ -2,6 +2,11 @@ body {
  width: 1440px;
  width: 100%;
  background-color: hsl(210, 46%, 95%);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ min-height: 100%;
 }
 
 .grid-container {
